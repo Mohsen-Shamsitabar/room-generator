@@ -1,0 +1,6 @@
+.root {
+  --background-color: black;
+  --cell-size: 0;
+  @apply flex items-center justify-center text-white text-3xl font-black
+  bg-[var(--background-color)] w-[var(--cell-size)] h-[var(--cell-size)];
+}

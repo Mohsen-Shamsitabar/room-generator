@@ -1,0 +1,4 @@
+.root {
+  @apply flex bg-slate-300 flex-wrap
+  w-[var(--board-size)] h-[var(--board-size)];
+}
